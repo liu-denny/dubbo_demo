@@ -1,6 +1,6 @@
 package service.impl;
 
-import bean.UserAddress;
+import entity.UserAddress;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.OrderService;

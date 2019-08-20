@@ -22,5 +22,6 @@
     <!-- 服务的实现 -->
     <bean id="userServiceImp" class="service.impl.UserServiceImpl"></bean>
 
+    <!-- 监控中心自动注册 -->
     <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>

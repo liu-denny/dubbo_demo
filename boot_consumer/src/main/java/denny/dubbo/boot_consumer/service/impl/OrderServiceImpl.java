@@ -1,13 +1,11 @@
 package denny.dubbo.boot_consumer.service.impl;
 
-import bean.UserAddress;
+import entity.UserAddress;
 import com.alibaba.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.OrderService;
 import service.UserService;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**

@@ -1,6 +1,6 @@
 package service.impl;
 
-import bean.UserAddress;
+import entity.UserAddress;
 import service.UserService;
 
 import java.util.Arrays;

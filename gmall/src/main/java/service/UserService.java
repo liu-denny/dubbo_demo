@@ -1,6 +1,6 @@
 package service;
 
-import bean.UserAddress;
+import entity.UserAddress;
 
 import java.util.List;
 

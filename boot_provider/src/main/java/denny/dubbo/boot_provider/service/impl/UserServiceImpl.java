@@ -1,6 +1,6 @@
 package denny.dubbo.boot_provider.service.impl;
 
-import bean.UserAddress;
+import entity.UserAddress;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 import service.UserService;

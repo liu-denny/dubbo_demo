@@ -8,9 +8,8 @@ import java.io.IOException;
  */
 public class MainApplication {
     public static void main(String[] args) throws IOException {
-        ClassPathXmlApplicationContext ioc = new ClassPathXmlApplicationContext("provider.xml");
-        ioc.start();
-
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("provider.xml");
+        classPathXmlApplicationContext.start();
         System.in.read();
     }
 }
